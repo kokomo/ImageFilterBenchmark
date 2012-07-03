@@ -41,7 +41,7 @@
                                     </barButtonItem>
                                     <barButtonItem systemItem="refresh" id="e9V-aI-Tec">
                                         <connections>
-                                            <action selector="refreshImage:" destination="YbB-4V-RVv" id="Q5O-vS-eaf"/>
+                                            <action selector="refreshImages:" destination="YbB-4V-RVv" id="EV3-5x-PPy"/>
                                         </connections>
                                     </barButtonItem>
                                 </items>
@@ -69,7 +69,7 @@
                 <relationship kind="action" name="processImageCPUCoreImage:"/>
                 <relationship kind="action" name="processImageGPUCoreImage:"/>
                 <relationship kind="action" name="processImageGPUImage:"/>
-                <relationship kind="action" name="refreshImage:"/>
+                <relationship kind="action" name="refreshImages:"/>
                 <relationship kind="action" name="showLog:"/>
                 <relationship kind="outlet" name="imageView" candidateClass="UIImageView"/>
             </relationships>
