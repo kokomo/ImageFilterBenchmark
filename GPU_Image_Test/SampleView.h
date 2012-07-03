@@ -1,5 +1,5 @@
 //
-//  CFMAppDelegate.h
+//  SampleView.h
 //  GPU_Image_Test
 //
 //  Created by Colin McDonald on 12-06-29.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CFMAppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
+@interface SampleView : UIView
 
 @end
